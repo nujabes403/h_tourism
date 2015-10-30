@@ -1,0 +1,41 @@
+.header_logo {
+  width:100px;
+  height:50px;
+  margin-right:5px;
+}
+
+.header_icon {
+  margin-top:25px;
+
+}
+.header_nickname{
+  margin-top:25px;
+  font-family: 'Lato', sans-serif;
+}
+.header_title{
+  font-family: 'Lato', sans-serif;
+  font-size:30px;
+}
+.header_icon{
+  margin-left:5px;
+}
+
+.top_menu_title{
+  font-size:25px;
+  color:white;
+}
+.top_menu_button{
+
+}
+.top_menu_grid{
+  background-color: #2b3340;
+}
+
+.second_menu_title{
+  font-size:25px;
+  color:black;
+}
+
+.second_menu_grid{
+
+}
