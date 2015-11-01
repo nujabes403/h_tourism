@@ -4,11 +4,8 @@ var Second_menu = require('./second_menu');
 
 module.exports = React.createClass({
   render:function(){
-    return <main className="mdl-layout__content">
-        <div className="page-content">
-            <Top_menu />
-            <Second_menu />
-        </div>
-      </main>
+    return <div>
+           <Top_menu />
+           </div>
   }
 });
