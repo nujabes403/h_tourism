@@ -37,5 +37,10 @@
 }
 
 .second_menu_grid{
+  background-color: #F1F1F3;
+}
 
+.second_menu_checkbox{
+  display:inline;
+  margin:30px;
 }
