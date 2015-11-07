@@ -1,29 +1,18 @@
 var React = require('react');
-var Header = require('./header');
-var Header_drawer = require('./header_drawer');
-var Menus = require('./menus');
+var Section_1 = require('./section_1');
+var Section_2 = require('./section_2');
+var Section_3 = require('./section_3');
+var Section_4 = require('./section_4');
+var Section_5 = require('./section_5');
 
 module.exports = React.createClass({
-  getInitialState: function() {
-    return {
-      logined:false
-    };
-  },
   render:function(){
-      return (
-        <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <Header loginState={this.state.logined} />
-        <Header_drawer />
-        <main className="mdl-layout__content">
-            <div className="page-content">
-              <Menus />
-              {this.renderRoute()}
-            </div>
-        </main>
-        </div>
-        );
-  },
-  renderRoute:function(){
-    return this.props.children;
+    return <div className="container-fluid">
+      <Section_1 />
+      <Section_2 />
+      <Section_3 />
+      <Section_4 />
+      <Section_5 />
+    </div>
   }
 });
