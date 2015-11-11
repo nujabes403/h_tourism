@@ -5,10 +5,10 @@ var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
 
 var Layout = require('./layout');
-
+var Layout2 = require('./layout2');
 module.exports = (
   <Router history={new HashHistory}>
-    <Route path="/" component={Layout}>
-    </Route>
+    <Route path="/" component={Layout}></Route>
+    <Route path="hyu" component={Layout2}></Route>
   </Router>
 );

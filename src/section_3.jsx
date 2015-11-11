@@ -14,7 +14,7 @@ module.exports = React.createClass({
               궁극적으로는 인간의 행복을 실현하는 것을 목표로 하는 숭고한 학문이다.
     				</p>
     				<p className="quoted">
-    					- 한양대 관광학부, 이연택 교수
+    					- 한양대 관광학부,  ㅇㅇㅇ 교수
     				</p>
   			</div>
         </div>
