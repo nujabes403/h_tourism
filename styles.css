@@ -8,20 +8,22 @@ body{
 .container-fluid{
   padding:0px;
 }
+/* Header */
 .header_left{
   text-align: left;
 }
-.header_left_logo{
+.header_right_logo{
   width:300px;
   height:30px;
 }
 .header_right{
 text-align: right;
 }
-.header_right_logo{
+.header_left_logo{
   width:200px;
   height:200px;
 }
+/* Section1 */
 .section_1_main{
   background-color:#1f374b;
   width:100%;
@@ -49,10 +51,13 @@ text-align: right;
 .section_1_jumbotron_btn{
   background-color: #5cb85c;
   border-color: #4cae4c;
+  text-align:center;
+  width:150px;
 }
-.section_2_jumbotron{
-  background-color:#fff;
+.section_1_jumbotron_btn:hover{
+
 }
+/* Section 2 */
 .section_2_jumbotron{
   background-color:#fff;
   font-family:'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
@@ -81,6 +86,7 @@ text-align: right;
   width:250px;
   height:250px;
 }
+/* Section 3 */
 .section_3_jumbotron{
   background-color:#fff;
   font-family:'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
@@ -112,8 +118,8 @@ text-align: right;
 
 .section_3_text .quoted{
     font-size: 1.6em;
-
 }
+/* Section 4 */
 .section_4_main{
   background-color:#1f374b;
 }
@@ -148,6 +154,7 @@ text-align: right;
   width:250px;
   height:250px;
 }
+/* Section 5 */
 .section_5_main{
   background-color:#ffffff;
   padding-left:70px;
@@ -196,6 +203,7 @@ text-align: right;
   margin-left:10px;
   margin-right:40px;
 }
+/* Footer */
 .footer_main{
   background-color: #E9EAEA;
   height:75px;
@@ -205,28 +213,11 @@ text-align: right;
   padding-top:15px;
   padding-left:20px;
 }
-/* Layout 2 */
-/*.layout2_header{
-  font-family:'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
-  background-color:#3398d6;
-  height:70px;
-}
-.layout2_header_h3{
-  margin-top:13px;
-  font-size:35px;
-}
-.layout2_header_tabs{
-  margin-top:10px;
-  font-size:20px;
-  border-bottom-style: hidden;
-}
-.layout2_header_tabItem{
-  color:#FFFFFF;
-}*/
 
-/* Material layout2*/
+/* Layout 2 */
 @import url(httpsgu://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 
+/* Layout 2 Header*/
 .layout2_header {
 		font-family: 'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
 		background-color: #ebebeb;

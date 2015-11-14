@@ -7,7 +7,7 @@ module.exports = React.createClass({
       <div className="section_1_jumbotron jumbotron">
         <div className="section_1_jumbotron_first_row row">
           <div className="header_left col-md-3">
-            <img className="header_right_logo" src="assets/imgs/leo.png"/>
+            <img className="header_left_logo" src="assets/imgs/leo.png"/>
           </div>
           <div className="col-md-3"></div>
           <div className="col-md-3"></div>
