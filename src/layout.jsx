@@ -4,6 +4,7 @@ var Section_2 = require('./section_2');
 var Section_3 = require('./section_3');
 var Section_4 = require('./section_4');
 var Section_5 = require('./section_5');
+var Footer = require('./footer');
 
 module.exports = React.createClass({
   render:function(){
@@ -13,6 +14,7 @@ module.exports = React.createClass({
       <Section_3 />
       <Section_4 />
       <Section_5 />
+      <Footer />
     </div>
   }
 });

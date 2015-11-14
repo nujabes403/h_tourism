@@ -12,7 +12,7 @@ module.exports = React.createClass({
   handle_enterImg:function(e){
     var target_img = e.target.id;
     var t = new TimelineMax();
-    t.to(e.target, .5, {y:'-70'});
+    t.to(e.target, .5, {y:'-20'});
     this.setState({
       [e.target.id + '_on'] : true
     });

@@ -101,6 +101,7 @@ text-align: right;
   width:100%;
   letter-spacing: 2px;
   color:#fff;
+  left:0;
 }
 .section_3_text .quote{
   margin-top:100px;
@@ -195,6 +196,15 @@ text-align: right;
   margin-left:10px;
   margin-right:40px;
 }
+.footer_main{
+  background-color: #E9EAEA;
+  height:75px;
+  font-family:'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
+}
+.footer_p{
+  padding-top:15px;
+  padding-left:20px;
+}
 /* Layout 2 */
 /*.layout2_header{
   font-family:'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
@@ -215,7 +225,7 @@ text-align: right;
 }*/
 
 /* Material layout2*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@import url(httpsgu://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
 
 .layout2_header {
 		font-family: 'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
