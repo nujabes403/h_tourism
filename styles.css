@@ -87,11 +87,18 @@ text-align: right;
   height:250px;
 }
 /* Section 3 */
+.section_3_main{
+  background-color: black;
+}
 .section_3_jumbotron{
   background-color:#fff;
   font-family:'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
   text-align: center;
   position:relative;
+  background-image: url('assets/imgs/tourism-f.jpg');
+  background-size: cover;
+  height:700px;
+  margin-bottom:0px;
 }
 .section_3_imgs{
   width:100%;
@@ -118,6 +125,7 @@ text-align: right;
 
 .section_3_text .quoted{
     font-size: 1.6em;
+
 }
 /* Section 4 */
 .section_4_main{
@@ -127,7 +135,7 @@ text-align: right;
   background-color:#1f374b;
   font-family:'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
   text-align: center;
-  margin-top:625px;
+  margin-top:0px;
   position:relative;
   color:#fff;
 }

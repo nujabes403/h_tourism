@@ -7,13 +7,25 @@ var Section_5 = require('./section_5');
 var Footer = require('./footer');
 
 module.exports = React.createClass({
+  getInitialState: function() {
+    return {
+      windowWidth:window.innerWidth
+    };
+  },
+  handleResize: function(){
+    this.setState({windowWidth: window.innerWidth});
+    console.log(this.state.windowWidth);
+  },
+  componentDidMount: function() {
+    window.addEventListener('resize',this.handleResize)
+  },
   render:function(){
     return <div className="container-fluid">
       <Section_1 />
       <Section_2 />
       <Section_3 />
       <Section_4 />
-      <Section_5 />
+      <Section_5 winWidth={this.state.windowWidth}/>
       <Footer />
     </div>
   }
