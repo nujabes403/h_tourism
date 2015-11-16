@@ -25,5 +25,9 @@
     "request": "^2.65.0",
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.6.0"
+  },
+  "devDependencies": {
+    "gulp-minify": "0.0.5",
+    "gulp-uglify": "^1.5.1"
   }
 }

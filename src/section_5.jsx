@@ -8,7 +8,7 @@ module.exports = React.createClass({
           <div className="col-md-3 section_5_row_part1">
             <h1 className="section_5_jumbotron_h1">졸업하면?</h1>
           </div>
-            {this.props.winWidth > 1000 ?
+            {this.props.winWidth > 600 ?
               <div className="col-md-3 section_5_row_part2">
                 <img className="section_5_imgs" src="assets/imgs/branch.png"/>
               </div>
