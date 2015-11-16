@@ -9,9 +9,9 @@ module.exports = React.createClass({
 				<div>
 						<a><span>관광학부 소개</span></a>
 						<div>
-								<a>관광학이란?</a>
-								<a>관광학부 진로</a>
-								<a>관광학부 교수진</a>
+								<Link to="hyu/what_tourism">관광학이란?</Link>
+								<Link to="/carrer_tourism">관광학부 진로</Link>
+								<Link to="/professor_tourism">관광학부 교수진</Link>
 								<a>Link 4</a>
 								<a>Link 5</a>
 								<a>Link 6</a>
@@ -20,11 +20,11 @@ module.exports = React.createClass({
 				<div>
 						<a><span>학부생 코너</span></a>
 						<div>
-								<a>무브토크</a>
-								<a>한국문화관광연구원</a>
-								<a>한국관광공사</a>
-								<a>DBPIA</a>
-								<a>RISS</a>
+								<a href="http://www.podbbang.com/ch/9939">무브토크</a>
+								<a href="http://www.kcti.re.kr/index.dmw">한국문화관광연구원</a>
+								<a href="http://kto.visitkorea.or.kr/kor/notice/data/statis/profit.kto">한국관광공사</a>
+								<a href="http://www.dbpia.co.kr/">DBPIA</a>
+								<a href="http://www.riss.kr/index.do">RISS</a>
 								<a>자유게시판</a>
 						</div>
 				</div>

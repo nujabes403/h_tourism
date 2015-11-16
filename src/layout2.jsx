@@ -6,6 +6,7 @@ module.exports = React.createClass({
   render:function(){
     return <div className="container-fluid">
       <Layout2_header/>
+      {this.props.children}
     </div>
   }
 });
