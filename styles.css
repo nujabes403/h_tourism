@@ -328,3 +328,20 @@ text-align: right;
 				display: none;
 		}
 }
+
+/* What Tourism Block */
+.what_tourism_block{
+  text-align:center;
+}
+.career_tourism_block{
+  text-align:center;
+}
+
+/*Boards Item*/
+.board_container{
+  text-align: center;
+}
+
+.boardItems{
+  text-align:center;
+}
