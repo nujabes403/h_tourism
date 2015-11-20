@@ -3,6 +3,9 @@ var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
 
 module.exports = React.createClass({
+  componentWillMount:function(){
+    console.log(this.props.params.boardItemId);
+  },
   getInitialState: function() {
     return {
       boardsItem:[{

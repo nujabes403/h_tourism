@@ -1,25 +1,21 @@
 var React = require('react');
 var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
-
+var Firebase = require('firebase');
+var ReactFireMixin = require('reactfire');
+var rootUrl = 'https://httest.firebaseio.com';
 module.exports = React.createClass({
+  mixins:[ReactFireMixin],
+  componentWillMount: function() {
+    var boardItemsRef = new Firebase(rootUrl + '/boardsItem');
+    this.bindAsObject(boardItemsRef,'boardsItem');
+    this.setState({
+      boardsItem : this.state.boardsItem
+    });
+  },
   getInitialState: function() {
     return {
-      boardsItem:[{
-        id:1,
-        title:'Item1',
-        content:'Hello I am Item1'
-      },
-      {
-        id:2,
-        title:'Item2',
-        content:'Hola! I am Item2'
-      },
-      {
-        id:3,
-        title:'Item3',
-        content:'Je suis Un Item3'
-      }]
+      boardsItem:[]
     }
   },
   renderBoard:function(){
