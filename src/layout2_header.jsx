@@ -6,6 +6,12 @@ module.exports = React.createClass({
     return <div className="layout2_header">
       <header>
 		<nav>
+      <div className="logo_div">
+        <img className="layout2_logo" src="../assets/imgs/tourism_logo.png"/>
+      </div>
+      <div>
+        <h3 className="layout2_logo_text">한양대 관광학부</h3>
+      </div>
 				<div>
 						<a><span>관광학부 소개</span></a>
 						<div>
@@ -30,8 +36,7 @@ module.exports = React.createClass({
 				</div>
 		</nav>
 </header>
-
-<p>ㅎㅎ</p>
+<p>-</p>
       </div>
 
   }

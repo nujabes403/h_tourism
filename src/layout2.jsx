@@ -6,7 +6,7 @@ var Footer = require('./footer');
 
 module.exports = React.createClass({
   render:function(){
-    return <div className="container-fluid">
+    return <div className="container-fluid layout2_main">
       <Layout2_header/>
       {this.props.children}
     </div>
