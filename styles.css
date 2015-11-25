@@ -346,7 +346,16 @@ text-align: right;
 /* What Tourism Block */
 .what_tourism_block{
   text-align:center;
+
 }
+.alert_custom{
+  text-align:center;
+  width:150px;
+  font-size:15px;
+  font-weight:bold;
+  margin: 0 auto;
+}
+
 .career_tourism_block{
   text-align:center;
 }
