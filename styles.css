@@ -226,9 +226,10 @@ text-align: right;
 .layout2_main{
   background-color:#f0f0f0;
   height:800px;
+  font-family:'Noto Sans KR','Nanum Gothic',Lato,sans-serif;
 }
 .layout2_main .footer_main{
-  margin-top:260px;
+  
 }
 .layout2_header .logo_div{
   width:50px;
@@ -348,15 +349,33 @@ text-align: right;
 
 /* What Tourism Block */
 .what_tourism_block{
-  text-align:center;
-
+  text-align:left;
+  line-height: 270%;
+  background-color: #f0f0f0;
 }
-.alert_custom{
-  text-align:center;
-  width:150px;
-  font-size:15px;
+.what_tourism_block p{
+  font-weight:300;
+}
+.what_tourism_block .jum_sec1 {
+  background-color: #FCF8E3;
+}
+.what_tourism_block .jum_sec2 {
+  background-color: #d9edf7;
+}
+.what_tourism_block .alert_custom1{
+  font-size:18px;
   font-weight:bold;
-  margin: 0 auto;
+  line-height: 300%;
+}
+.what_tourism_block .alert_custom2{
+  font-size:18px;
+  font-weight:bold;
+  line-height: 300%;
+}
+.what_tourism_block .alert_custom3{
+  font-size:18px;
+  font-weight:bold;
+  line-height: 300%;
 }
 
 .career_tourism_block{
