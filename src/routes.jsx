@@ -11,6 +11,7 @@ var Layout2 = require('./layout2');
 var WhatTourism = require('./what_tourism');
 var CareerTourism = require('./career_tourism');
 var ProfessorTourism = require('./professor_tourism');
+var HyuTourism = require('./hyu_tourism');
 
 var Board = require('./board');
 var BoardItem = require('./boardItem');
@@ -22,6 +23,7 @@ module.exports = (
       <Route path="what_tourism" component={WhatTourism}/>
       <Route path="career_tourism" component={CareerTourism}/>
       <Route path="professor_tourism" component={ProfessorTourism}/>
+      <Route path="hyu_tourism" component={HyuTourism}/>
       <Route path="board" component={Board}/>
       <Route path="board/:boardItemId" component={BoardItem}/>
     </Route>

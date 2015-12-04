@@ -19,7 +19,7 @@ module.exports = React.createClass({
 								<Link to="hyu/career_tourism">관광학부 진로</Link>
 								<Link to="hyu/professor_tourism">관광학부 교수진</Link>
 								<a href="http://kimhoonil.firebaseapp.com">관광지 생애주기</a>
-								<a>Link 5</a>
+								<Link to="hyu/hyu_tourism">왜 한양대 관광학부?</Link>
 								<a>Link 6</a>
 						</div>
 				</div>
